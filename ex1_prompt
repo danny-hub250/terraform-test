@@ -87,7 +87,6 @@ terraform/
 - environment
 - project
 - owner
-- costcenter
 
 [보안/운영 원칙]
 - secret 하드코딩 금지
@@ -108,23 +107,23 @@ terraform/
    - terraform plan
    - terraform apply
 
-[예시 대상 구성]
-아래 리소스를 만드는 예시로 작성:
+[대상 구성]
 - resource group 1개
 - virtual network 1개
 - subnet 2개
 - network security group 1개
-- storage account 1개
 
 애매한 부분은 가장 단순하고 Azure 친화적인 방식으로 결정해줘.
 
-Project name: demoapp
+Project name: tfdemoapp
 Environment: dev
 Location: koreacentral
 Address space: 10.10.0.0/16
 Subnet 1: snet-app = 10.10.1.0/24
 Subnet 2: snet-data = 10.10.2.0/24
-Owner: cloudteam
-Costcenter: cc1001
+Owner: LJK
+
+
+
 
 
