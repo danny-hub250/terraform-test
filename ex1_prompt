@@ -117,3 +117,14 @@ terraform/
 - storage account 1개
 
 애매한 부분은 가장 단순하고 Azure 친화적인 방식으로 결정해줘.
+
+Project name: demoapp
+Environment: dev
+Location: koreacentral
+Address space: 10.10.0.0/16
+Subnet 1: snet-app = 10.10.1.0/24
+Subnet 2: snet-data = 10.10.2.0/24
+Owner: cloudteam
+Costcenter: cc1001
+
+
