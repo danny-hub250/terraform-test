@@ -1,6 +1,6 @@
 [Azure 정보]
 Tenant ID : 7d49e97a-1b9b-4907-81aa-24ff1ddf0bda
-Subscription ID : 05bd9cdc-684e-4980-b53e-e90c19254b70
+Subscription ID : d6ec08db-4ce1-4ed6-b16c-b4ff61504b4d
 Project name: tfdemoapp
 Environment: dev
 Location: koreacentral
@@ -14,3 +14,4 @@ Owner: LJK
 - virtual network 1개
 - subnet 2개
 - network security group 1개
+
