@@ -1,0 +1,16 @@
+[Azure 정보]
+Tenant ID : 7d49e97a-1b9b-4907-81aa-24ff1ddf0bda
+Subscription ID : 05bd9cdc-684e-4980-b53e-e90c19254b70
+Project name: tfdemoapp
+Environment: dev
+Location: koreacentral
+Address space: 10.10.0.0/16
+Subnet 1: snet-app = 10.10.1.0/24
+Subnet 2: snet-data = 10.10.2.0/24
+Owner: LJK
+
+[대상 구성]
+- resource group 1개
+- virtual network 1개
+- subnet 2개
+- network security group 1개
